@@ -99,14 +99,12 @@ WSGI_APPLICATION = 'contactsAPI.wsgi.application'
 
 DATABASES = {
     'default': {
-        # 'ENGINE': 'django.db.backends.sqlite3',
-        # 'NAME': BASE_DIR / 'db.sqlite3',
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'contactapi',
-        'USER':'postgres',
-        'PASSWORD':'root',
-        'HOST':'127.0.0.1',
-        'PORT':'5432',
+        'NAME': '<your_DB_name>',
+        'USER':'<DB_username>',
+        'PASSWORD':'<DB_password>',
+        'HOST':'<postgresql_host>',
+        'PORT':'<postgresql_port',
     }
 }
 
